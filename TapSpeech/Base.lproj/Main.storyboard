@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fbs-nb-INm">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tap Speech View Controller-->
+        <scene sceneID="VQw-Xk-xYi">
+            <objects>
+                <viewController id="Fbs-nb-INm" customClass="TapSpeechViewController" customModule="TapSpeech" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yo3-8z-WOi"/>
+                        <viewControllerLayoutGuide type="bottom" id="4fb-3a-Ge1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mUg-mO-YFV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Below" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nn-nS-vfG">
+                                <rect key="frame" x="20" y="28" width="560" height="27.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aL5-mq-Wmu">
+                                <rect key="frame" x="24" y="86" width="48" height="55"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="Dvl-y5-ai2"/>
+                                    <constraint firstAttribute="height" constant="64" id="SOj-eq-qTI"/>
+                                </constraints>
+                                <state key="normal" title="Apple" image="Apple"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="jMv-98-39S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOe-sf-FEw">
+                                <rect key="frame" x="99" y="153" width="63" height="64"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="JdS-18-Ilf"/>
+                                    <constraint firstAttribute="height" constant="64" id="rpP-hG-n7B"/>
+                                </constraints>
+                                <state key="normal" title="Cookie" image="Cookie"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="jNc-RS-6oc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P60-86-Acm">
+                                <rect key="frame" x="26" y="162" width="46" height="46"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="k9D-GZ-PfE"/>
+                                    <constraint firstAttribute="height" constant="64" id="zA0-kE-gbY"/>
+                                </constraints>
+                                <state key="normal" title="Chocolate" image="Chocolate"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="hjK-rc-mr0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rn-m9-bbi">
+                                <rect key="frame" x="192" y="86.5" width="53" height="46.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="VOA-0i-jUH"/>
+                                    <constraint firstAttribute="width" constant="64" id="ool-oX-0SV"/>
+                                </constraints>
+                                <state key="normal" title="Banana" image="Banana"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="xf8-w4-Ay3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7z-El-aLc">
+                                <rect key="frame" x="99" y="86" width="63" height="57"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="6Md-RN-oHN"/>
+                                    <constraint firstAttribute="height" constant="64" id="UCj-g2-52z"/>
+                                </constraints>
+                                <state key="normal" title="Avocado" image="Avacado"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="QPs-4E-7Hd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEX-Ik-iHo">
+                                <rect key="frame" x="192" y="155" width="56" height="59"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Q53-8Z-woP"/>
+                                    <constraint firstAttribute="width" constant="64" id="xlt-X6-MS4"/>
+                                </constraints>
+                                <state key="normal" title="Guava" image="Guava"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="R0H-1Q-XpR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtP-nH-4ZK">
+                                <rect key="frame" x="20" y="247" width="56" height="63"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="SsR-Tl-jNa"/>
+                                    <constraint firstAttribute="width" constant="64" id="j2H-ts-4bz"/>
+                                </constraints>
+                                <state key="normal" title="Milk" image="Milk"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="gqs-Kq-qzI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqZ-4S-oOr">
+                                <rect key="frame" x="23" y="343.5" width="51" height="48.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="xdG-jX-2G2"/>
+                                    <constraint firstAttribute="height" constant="64" id="z0F-cS-Lez"/>
+                                </constraints>
+                                <state key="normal" title="Strawberry" image="Strawberry"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="WlV-5S-PwV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S62-zo-AR9">
+                                <rect key="frame" x="187" y="252" width="58" height="54"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="5US-qm-CWT"/>
+                                    <constraint firstAttribute="width" constant="64" id="6nG-49-7Us"/>
+                                </constraints>
+                                <state key="normal" title="Pizza" image="Pizza"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="Jsd-uu-USP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nus-RD-Xyh">
+                                <rect key="frame" x="103" y="251" width="54" height="55"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="47s-cq-dkQ"/>
+                                    <constraint firstAttribute="width" constant="64" id="Kt5-ZG-oSt"/>
+                                </constraints>
+                                <state key="normal" title="Peanut" image="Peanut"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="Q6W-wF-KbI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YoU-Ue-aZy">
+                                <rect key="frame" x="192" y="345" width="56" height="45"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="29e-kO-Bmc"/>
+                                    <constraint firstAttribute="height" constant="64" id="mR7-dy-2zp"/>
+                                </constraints>
+                                <state key="normal" title="Watermelon" image="Watermelon"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="9yg-Iy-1cK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOO-iO-uVv">
+                                <rect key="frame" x="99" y="339" width="65" height="57"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="CW1-Sb-COO"/>
+                                    <constraint firstAttribute="height" constant="64" id="PdH-L2-b0V"/>
+                                </constraints>
+                                <state key="normal" title="Mango" image="Mango"/>
+                                <connections>
+                                    <action selector="fruitButton:" destination="Fbs-nb-INm" eventType="touchUpInside" id="6th-YQ-TbZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0m7-09-sIl">
+                                <rect key="frame" x="20" y="523" width="560" height="57"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <color key="textColor" red="0.36394565000236279" green="0.73892227564102564" blue="0.2174736544109461" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.98176727731409241" green="1" blue="0.92593776304184439" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="0m7-09-sIl" secondAttribute="leading" id="U2b-lN-T46"/>
+                            <constraint firstItem="4fb-3a-Ge1" firstAttribute="top" secondItem="0m7-09-sIl" secondAttribute="bottom" constant="20" id="c4h-o8-2cz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9nn-nS-vfG" secondAttribute="trailing" id="p49-6X-4kc"/>
+                            <constraint firstItem="9nn-nS-vfG" firstAttribute="top" secondItem="yo3-8z-WOi" secondAttribute="bottom" constant="8" id="sdA-dT-hEq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0m7-09-sIl" secondAttribute="trailing" id="tYC-xB-CA5"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="9nn-nS-vfG" secondAttribute="leading" id="zbC-t9-2My"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textLabel" destination="0m7-09-sIl" id="2ps-el-DQl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ilA-Ch-ypv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="168"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apple" width="289" height="340"/>
+        <image name="Avacado" width="449" height="307"/>
+        <image name="Banana" width="1388" height="895"/>
+        <image name="Chocolate" width="246" height="205"/>
+        <image name="Cookie" width="259" height="194"/>
+        <image name="Guava" width="300" height="271"/>
+        <image name="Mango" width="300" height="225"/>
+        <image name="Milk" width="230" height="230"/>
+        <image name="Peanut" width="200" height="152"/>
+        <image name="Pizza" width="1356" height="797"/>
+        <image name="Strawberry" width="1117" height="1128"/>
+        <image name="Watermelon" width="523" height="356"/>
+    </resources>
+</document>

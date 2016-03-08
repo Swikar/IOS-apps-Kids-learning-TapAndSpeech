@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7B060751C2768540059C9A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B060741C2768540059C9A7 /* AppDelegate.swift */; };
+		D7B0607A1C2768540059C9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B060781C2768540059C9A7 /* Main.storyboard */; };
+		D7B0607C1C2768540059C9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B0607B1C2768540059C9A7 /* Assets.xcassets */; };
+		D7B0607F1C2768540059C9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B0607D1C2768540059C9A7 /* LaunchScreen.storyboard */; };
+		D7B0608A1C2768550059C9A7 /* TapSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B060891C2768550059C9A7 /* TapSpeechTests.swift */; };
+		D7B060951C2768550059C9A7 /* TapSpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B060941C2768550059C9A7 /* TapSpeechUITests.swift */; };
+		D7B060A31C276ACA0059C9A7 /* TapSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B060A21C276ACA0059C9A7 /* TapSpeechViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D7B8509F1C2A177500EF3332 /* Banana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B8509C1C2A177500EF3332 /* Banana.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850A01C2A177500EF3332 /* Apple.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B8509D1C2A177500EF3332 /* Apple.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850A11C2A177500EF3332 /* Mango.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B8509E1C2A177500EF3332 /* Mango.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850AB1C2A23A700EF3332 /* Avocado.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A21C2A23A700EF3332 /* Avocado.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850AC1C2A23A700EF3332 /* Chocolate.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A31C2A23A700EF3332 /* Chocolate.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850AD1C2A23A700EF3332 /* Cookie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A41C2A23A700EF3332 /* Cookie.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850AE1C2A23A700EF3332 /* Guava.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A51C2A23A700EF3332 /* Guava.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850AF1C2A23A700EF3332 /* Milk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A61C2A23A700EF3332 /* Milk.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850B01C2A23A700EF3332 /* Peanut.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A71C2A23A700EF3332 /* Peanut.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850B11C2A23A700EF3332 /* Pizza.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A81C2A23A700EF3332 /* Pizza.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850B21C2A23A700EF3332 /* Strawberry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850A91C2A23A700EF3332 /* Strawberry.m4a */; settings = {ASSET_TAGS = (); }; };
+		D7B850B31C2A23A700EF3332 /* Watermelon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7B850AA1C2A23A700EF3332 /* Watermelon.m4a */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7B060861C2768550059C9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B060691C2768540059C9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B060701C2768540059C9A7;
+			remoteInfo = TapSpeech;
+		};
+		D7B060911C2768550059C9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B060691C2768540059C9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B060701C2768540059C9A7;
+			remoteInfo = TapSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7B060711C2768540059C9A7 /* TapSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B060741C2768540059C9A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7B060791C2768540059C9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7B0607B1C2768540059C9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7B0607E1C2768540059C9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7B060801C2768540059C9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B060851C2768550059C9A7 /* TapSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B060891C2768550059C9A7 /* TapSpeechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapSpeechTests.swift; sourceTree = "<group>"; };
+		D7B0608B1C2768550059C9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B060901C2768550059C9A7 /* TapSpeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapSpeechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B060941C2768550059C9A7 /* TapSpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapSpeechUITests.swift; sourceTree = "<group>"; };
+		D7B060961C2768550059C9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B060A21C276ACA0059C9A7 /* TapSpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapSpeechViewController.swift; sourceTree = "<group>"; };
+		D7B8509C1C2A177500EF3332 /* Banana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Banana.m4a; sourceTree = "<group>"; };
+		D7B8509D1C2A177500EF3332 /* Apple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple.m4a; sourceTree = "<group>"; };
+		D7B8509E1C2A177500EF3332 /* Mango.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mango.m4a; sourceTree = "<group>"; };
+		D7B850A21C2A23A700EF3332 /* Avocado.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avocado.m4a; sourceTree = "<group>"; };
+		D7B850A31C2A23A700EF3332 /* Chocolate.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chocolate.m4a; sourceTree = "<group>"; };
+		D7B850A41C2A23A700EF3332 /* Cookie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cookie.m4a; sourceTree = "<group>"; };
+		D7B850A51C2A23A700EF3332 /* Guava.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guava.m4a; sourceTree = "<group>"; };
+		D7B850A61C2A23A700EF3332 /* Milk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Milk.m4a; sourceTree = "<group>"; };
+		D7B850A71C2A23A700EF3332 /* Peanut.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peanut.m4a; sourceTree = "<group>"; };
+		D7B850A81C2A23A700EF3332 /* Pizza.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pizza.m4a; sourceTree = "<group>"; };
+		D7B850A91C2A23A700EF3332 /* Strawberry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Strawberry.m4a; sourceTree = "<group>"; };
+		D7B850AA1C2A23A700EF3332 /* Watermelon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Watermelon.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B0606E1C2768540059C9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B060821C2768550059C9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B0608D1C2768550059C9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7B060681C2768540059C9A7 = {
+			isa = PBXGroup;
+			children = (
+				D7B060731C2768540059C9A7 /* TapSpeech */,
+				D7B060881C2768550059C9A7 /* TapSpeechTests */,
+				D7B060931C2768550059C9A7 /* TapSpeechUITests */,
+				D7B060721C2768540059C9A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B060721C2768540059C9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B060711C2768540059C9A7 /* TapSpeech.app */,
+				D7B060851C2768550059C9A7 /* TapSpeechTests.xctest */,
+				D7B060901C2768550059C9A7 /* TapSpeechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B060731C2768540059C9A7 /* TapSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				D7B060781C2768540059C9A7 /* Main.storyboard */,
+				D7B060A21C276ACA0059C9A7 /* TapSpeechViewController.swift */,
+				D7B0607D1C2768540059C9A7 /* LaunchScreen.storyboard */,
+				D7B060A71C277D2E0059C9A7 /* Supporting Files */,
+			);
+			path = TapSpeech;
+			sourceTree = "<group>";
+		};
+		D7B060881C2768550059C9A7 /* TapSpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B060891C2768550059C9A7 /* TapSpeechTests.swift */,
+				D7B0608B1C2768550059C9A7 /* Info.plist */,
+			);
+			path = TapSpeechTests;
+			sourceTree = "<group>";
+		};
+		D7B060931C2768550059C9A7 /* TapSpeechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B060941C2768550059C9A7 /* TapSpeechUITests.swift */,
+				D7B060961C2768550059C9A7 /* Info.plist */,
+			);
+			path = TapSpeechUITests;
+			sourceTree = "<group>";
+		};
+		D7B060A71C277D2E0059C9A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B850A21C2A23A700EF3332 /* Avocado.m4a */,
+				D7B850A31C2A23A700EF3332 /* Chocolate.m4a */,
+				D7B850A41C2A23A700EF3332 /* Cookie.m4a */,
+				D7B850A51C2A23A700EF3332 /* Guava.m4a */,
+				D7B850A61C2A23A700EF3332 /* Milk.m4a */,
+				D7B850A71C2A23A700EF3332 /* Peanut.m4a */,
+				D7B850A81C2A23A700EF3332 /* Pizza.m4a */,
+				D7B850A91C2A23A700EF3332 /* Strawberry.m4a */,
+				D7B850AA1C2A23A700EF3332 /* Watermelon.m4a */,
+				D7B8509C1C2A177500EF3332 /* Banana.m4a */,
+				D7B8509D1C2A177500EF3332 /* Apple.m4a */,
+				D7B8509E1C2A177500EF3332 /* Mango.m4a */,
+				D7B060741C2768540059C9A7 /* AppDelegate.swift */,
+				D7B060801C2768540059C9A7 /* Info.plist */,
+				D7B0607B1C2768540059C9A7 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B060701C2768540059C9A7 /* TapSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B060991C2768550059C9A7 /* Build configuration list for PBXNativeTarget "TapSpeech" */;
+			buildPhases = (
+				D7B0606D1C2768540059C9A7 /* Sources */,
+				D7B0606E1C2768540059C9A7 /* Frameworks */,
+				D7B0606F1C2768540059C9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapSpeech;
+			productName = TapSpeech;
+			productReference = D7B060711C2768540059C9A7 /* TapSpeech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7B060841C2768550059C9A7 /* TapSpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B0609C1C2768550059C9A7 /* Build configuration list for PBXNativeTarget "TapSpeechTests" */;
+			buildPhases = (
+				D7B060811C2768550059C9A7 /* Sources */,
+				D7B060821C2768550059C9A7 /* Frameworks */,
+				D7B060831C2768550059C9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B060871C2768550059C9A7 /* PBXTargetDependency */,
+			);
+			name = TapSpeechTests;
+			productName = TapSpeechTests;
+			productReference = D7B060851C2768550059C9A7 /* TapSpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7B0608F1C2768550059C9A7 /* TapSpeechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B0609F1C2768550059C9A7 /* Build configuration list for PBXNativeTarget "TapSpeechUITests" */;
+			buildPhases = (
+				D7B0608C1C2768550059C9A7 /* Sources */,
+				D7B0608D1C2768550059C9A7 /* Frameworks */,
+				D7B0608E1C2768550059C9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B060921C2768550059C9A7 /* PBXTargetDependency */,
+			);
+			name = TapSpeechUITests;
+			productName = TapSpeechUITests;
+			productReference = D7B060901C2768550059C9A7 /* TapSpeechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B060691C2768540059C9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = AppsAndStudio;
+				TargetAttributes = {
+					D7B060701C2768540059C9A7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = M2PZKF2F8S;
+					};
+					D7B060841C2768550059C9A7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = M2PZKF2F8S;
+						TestTargetID = D7B060701C2768540059C9A7;
+					};
+					D7B0608F1C2768550059C9A7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = M2PZKF2F8S;
+						TestTargetID = D7B060701C2768540059C9A7;
+					};
+				};
+			};
+			buildConfigurationList = D7B0606C1C2768540059C9A7 /* Build configuration list for PBXProject "TapSpeech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7B060681C2768540059C9A7;
+			productRefGroup = D7B060721C2768540059C9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B060701C2768540059C9A7 /* TapSpeech */,
+				D7B060841C2768550059C9A7 /* TapSpeechTests */,
+				D7B0608F1C2768550059C9A7 /* TapSpeechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7B0606F1C2768540059C9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B850A01C2A177500EF3332 /* Apple.m4a in Resources */,
+				D7B850B31C2A23A700EF3332 /* Watermelon.m4a in Resources */,
+				D7B850B21C2A23A700EF3332 /* Strawberry.m4a in Resources */,
+				D7B850A11C2A177500EF3332 /* Mango.m4a in Resources */,
+				D7B850AF1C2A23A700EF3332 /* Milk.m4a in Resources */,
+				D7B0607F1C2768540059C9A7 /* LaunchScreen.storyboard in Resources */,
+				D7B850AE1C2A23A700EF3332 /* Guava.m4a in Resources */,
+				D7B0607C1C2768540059C9A7 /* Assets.xcassets in Resources */,
+				D7B0607A1C2768540059C9A7 /* Main.storyboard in Resources */,
+				D7B850B01C2A23A700EF3332 /* Peanut.m4a in Resources */,
+				D7B850B11C2A23A700EF3332 /* Pizza.m4a in Resources */,
+				D7B850AB1C2A23A700EF3332 /* Avocado.m4a in Resources */,
+				D7B8509F1C2A177500EF3332 /* Banana.m4a in Resources */,
+				D7B850AD1C2A23A700EF3332 /* Cookie.m4a in Resources */,
+				D7B850AC1C2A23A700EF3332 /* Chocolate.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B060831C2768550059C9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B0608E1C2768550059C9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B0606D1C2768540059C9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B060A31C276ACA0059C9A7 /* TapSpeechViewController.swift in Sources */,
+				D7B060751C2768540059C9A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B060811C2768550059C9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B0608A1C2768550059C9A7 /* TapSpeechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B0608C1C2768550059C9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B060951C2768550059C9A7 /* TapSpeechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7B060871C2768550059C9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B060701C2768540059C9A7 /* TapSpeech */;
+			targetProxy = D7B060861C2768550059C9A7 /* PBXContainerItemProxy */;
+		};
+		D7B060921C2768550059C9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B060701C2768540059C9A7 /* TapSpeech */;
+			targetProxy = D7B060911C2768550059C9A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7B060781C2768540059C9A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B060791C2768540059C9A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7B0607D1C2768540059C9A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B0607E1C2768540059C9A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7B060971C2768550059C9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7B060981C2768550059C9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7B0609A1C2768550059C9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsandstudio.TapSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7B0609B1C2768550059C9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsandstudio.TapSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7B0609D1C2768550059C9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsandstudio.TapSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapSpeech.app/TapSpeech";
+			};
+			name = Debug;
+		};
+		D7B0609E1C2768550059C9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsandstudio.TapSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapSpeech.app/TapSpeech";
+			};
+			name = Release;
+		};
+		D7B060A01C2768550059C9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapSpeechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsandstudio.TapSpeechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapSpeech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D7B060A11C2768550059C9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapSpeechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsandstudio.TapSpeechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapSpeech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B0606C1C2768540059C9A7 /* Build configuration list for PBXProject "TapSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B060971C2768550059C9A7 /* Debug */,
+				D7B060981C2768550059C9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B060991C2768550059C9A7 /* Build configuration list for PBXNativeTarget "TapSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B0609A1C2768550059C9A7 /* Debug */,
+				D7B0609B1C2768550059C9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B0609C1C2768550059C9A7 /* Build configuration list for PBXNativeTarget "TapSpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B0609D1C2768550059C9A7 /* Debug */,
+				D7B0609E1C2768550059C9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B0609F1C2768550059C9A7 /* Build configuration list for PBXNativeTarget "TapSpeechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B060A01C2768550059C9A7 /* Debug */,
+				D7B060A11C2768550059C9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7B060691C2768540059C9A7 /* Project object */;
+}
